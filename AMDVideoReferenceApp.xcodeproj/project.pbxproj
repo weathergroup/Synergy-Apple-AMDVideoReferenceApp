@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0377F1ED2C7D0E6A0018B72B /* AMDVideoReferenceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377F1EC2C7D0E6A0018B72B /* AMDVideoReferenceAppApp.swift */; };
+		0329B8D12C7E4AD00005C6DD /* bicycle_cars_city_fall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0329B8D02C7E47150005C6DD /* bicycle_cars_city_fall.mp4 */; };
+		0350506D2C7FB47A00E47E21 /* city_view.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0329B8CF2C7E47150005C6DD /* city_view.mp4 */; };
+		0350506E2C7FB47D00E47E21 /* sunrise_over_a_city.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0329B8CD2C7E47150005C6DD /* sunrise_over_a_city.mp4 */; };
+		0350506F2C7FB48000E47E21 /* timelapse_stockholm_at_night.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0329B8CE2C7E47150005C6DD /* timelapse_stockholm_at_night.mp4 */; };
+		0377F1ED2C7D0E6A0018B72B /* AMDVideoReferenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377F1EC2C7D0E6A0018B72B /* AMDVideoReferenceApp.swift */; };
 		0377F1EF2C7D0E6A0018B72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377F1EE2C7D0E6A0018B72B /* ContentView.swift */; };
 		0377F1F12C7D0E6A0018B72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0377F1F02C7D0E6A0018B72B /* Assets.xcassets */; };
 		0377F1F42C7D0E6A0018B72B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0377F1F32C7D0E6A0018B72B /* Preview Assets.xcassets */; };
+		0377F1FD2C7D2B530018B72B /* AMDVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 0377F1FC2C7D2B530018B72B /* AMDVideoPlayer */; };
+		0377F1FF2C7D2E130018B72B /* AMDVODPlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377F1FE2C7D2E130018B72B /* AMDVODPlaybackManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0329B8CD2C7E47150005C6DD /* sunrise_over_a_city.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunrise_over_a_city.mp4; sourceTree = "<group>"; };
+		0329B8CE2C7E47150005C6DD /* timelapse_stockholm_at_night.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = timelapse_stockholm_at_night.mp4; sourceTree = "<group>"; };
+		0329B8CF2C7E47150005C6DD /* city_view.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = city_view.mp4; sourceTree = "<group>"; };
+		0329B8D02C7E47150005C6DD /* bicycle_cars_city_fall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bicycle_cars_city_fall.mp4; sourceTree = "<group>"; };
+		0350508A2C80BDC200E47E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0377F1E92C7D0E6A0018B72B /* AMDVideoReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMDVideoReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0377F1EC2C7D0E6A0018B72B /* AMDVideoReferenceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDVideoReferenceAppApp.swift; sourceTree = "<group>"; };
+		0377F1EC2C7D0E6A0018B72B /* AMDVideoReferenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDVideoReferenceApp.swift; sourceTree = "<group>"; };
 		0377F1EE2C7D0E6A0018B72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0377F1F02C7D0E6A0018B72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0377F1F32C7D0E6A0018B72B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0377F1FA2C7D2A640018B72B /* AMDVideoPlayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AMDVideoPlayer; path = ../../AMDVideoPlayer; sourceTree = "<group>"; };
+		0377F1FE2C7D2E130018B72B /* AMDVODPlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDVODPlaybackManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0377F1FD2C7D2B530018B72B /* AMDVideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0329B8CC2C7E46E70005C6DD /* VODVideos */ = {
+			isa = PBXGroup;
+			children = (
+				0329B8D02C7E47150005C6DD /* bicycle_cars_city_fall.mp4 */,
+				0329B8CF2C7E47150005C6DD /* city_view.mp4 */,
+				0329B8CD2C7E47150005C6DD /* sunrise_over_a_city.mp4 */,
+				0329B8CE2C7E47150005C6DD /* timelapse_stockholm_at_night.mp4 */,
+			);
+			path = VODVideos;
+			sourceTree = "<group>";
+		};
 		0377F1E02C7D0E6A0018B72B = {
 			isa = PBXGroup;
 			children = (
+				0377F1FA2C7D2A640018B72B /* AMDVideoPlayer */,
 				0377F1EB2C7D0E6A0018B72B /* AMDVideoReferenceApp */,
 				0377F1EA2C7D0E6A0018B72B /* Products */,
+				0377F1FB2C7D2B530018B72B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +78,11 @@
 		0377F1EB2C7D0E6A0018B72B /* AMDVideoReferenceApp */ = {
 			isa = PBXGroup;
 			children = (
-				0377F1EC2C7D0E6A0018B72B /* AMDVideoReferenceAppApp.swift */,
+				0350508A2C80BDC200E47E21 /* Info.plist */,
+				0329B8CC2C7E46E70005C6DD /* VODVideos */,
+				0377F1EC2C7D0E6A0018B72B /* AMDVideoReferenceApp.swift */,
 				0377F1EE2C7D0E6A0018B72B /* ContentView.swift */,
+				0377F1FE2C7D2E130018B72B /* AMDVODPlaybackManager.swift */,
 				0377F1F02C7D0E6A0018B72B /* Assets.xcassets */,
 				0377F1F22C7D0E6A0018B72B /* Preview Content */,
 			);
@@ -65,6 +95,13 @@
 				0377F1F32C7D0E6A0018B72B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0377F1FB2C7D2B530018B72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +120,9 @@
 			dependencies = (
 			);
 			name = AMDVideoReferenceApp;
+			packageProductDependencies = (
+				0377F1FC2C7D2B530018B72B /* AMDVideoPlayer */,
+			);
 			productName = AMDVideoReferenceApp;
 			productReference = 0377F1E92C7D0E6A0018B72B /* AMDVideoReferenceApp.app */;
 			productType = "com.apple.product-type.application";
@@ -125,8 +165,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0350506F2C7FB48000E47E21 /* timelapse_stockholm_at_night.mp4 in Resources */,
+				0329B8D12C7E4AD00005C6DD /* bicycle_cars_city_fall.mp4 in Resources */,
 				0377F1F42C7D0E6A0018B72B /* Preview Assets.xcassets in Resources */,
+				0350506E2C7FB47D00E47E21 /* sunrise_over_a_city.mp4 in Resources */,
 				0377F1F12C7D0E6A0018B72B /* Assets.xcassets in Resources */,
+				0350506D2C7FB47A00E47E21 /* city_view.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0377F1FF2C7D2E130018B72B /* AMDVODPlaybackManager.swift in Sources */,
 				0377F1EF2C7D0E6A0018B72B /* ContentView.swift in Sources */,
-				0377F1ED2C7D0E6A0018B72B /* AMDVideoReferenceAppApp.swift in Sources */,
+				0377F1ED2C7D0E6A0018B72B /* AMDVideoReferenceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +320,7 @@
 				DEVELOPMENT_TEAM = HJDMDT63F5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMDVideoReferenceApp/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,6 +347,7 @@
 				DEVELOPMENT_TEAM = HJDMDT63F5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMDVideoReferenceApp/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,6 +385,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0377F1FC2C7D2B530018B72B /* AMDVideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AMDVideoPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0377F1E12C7D0E6A0018B72B /* Project object */;
 }
