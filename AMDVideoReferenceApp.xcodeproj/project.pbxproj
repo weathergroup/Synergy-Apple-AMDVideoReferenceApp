@@ -15,8 +15,8 @@
 		0377F1EF2C7D0E6A0018B72B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377F1EE2C7D0E6A0018B72B /* ContentView.swift */; };
 		0377F1F12C7D0E6A0018B72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0377F1F02C7D0E6A0018B72B /* Assets.xcassets */; };
 		0377F1F42C7D0E6A0018B72B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0377F1F32C7D0E6A0018B72B /* Preview Assets.xcassets */; };
-		0377F1FD2C7D2B530018B72B /* AMDVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 0377F1FC2C7D2B530018B72B /* AMDVideoPlayer */; };
 		0377F1FF2C7D2E130018B72B /* AMDVODPlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377F1FE2C7D2E130018B72B /* AMDVODPlaybackManager.swift */; };
+		03F8830B2C9080FA00A4E975 /* AMDVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 03F8830A2C9080FA00A4E975 /* AMDVideoPlayer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		0377F1EE2C7D0E6A0018B72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0377F1F02C7D0E6A0018B72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0377F1F32C7D0E6A0018B72B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0377F1FA2C7D2A640018B72B /* AMDVideoPlayer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AMDVideoPlayer; path = ../../AMDVideoPlayer; sourceTree = "<group>"; };
 		0377F1FE2C7D2E130018B72B /* AMDVODPlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDVODPlaybackManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0377F1FD2C7D2B530018B72B /* AMDVideoPlayer in Frameworks */,
+				03F8830B2C9080FA00A4E975 /* AMDVideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +59,6 @@
 		0377F1E02C7D0E6A0018B72B = {
 			isa = PBXGroup;
 			children = (
-				0377F1FA2C7D2A640018B72B /* AMDVideoPlayer */,
 				0377F1EB2C7D0E6A0018B72B /* AMDVideoReferenceApp */,
 				0377F1EA2C7D0E6A0018B72B /* Products */,
 				0377F1FB2C7D2B530018B72B /* Frameworks */,
@@ -121,7 +119,7 @@
 			);
 			name = AMDVideoReferenceApp;
 			packageProductDependencies = (
-				0377F1FC2C7D2B530018B72B /* AMDVideoPlayer */,
+				03F8830A2C9080FA00A4E975 /* AMDVideoPlayer */,
 			);
 			productName = AMDVideoReferenceApp;
 			productReference = 0377F1E92C7D0E6A0018B72B /* AMDVideoReferenceApp.app */;
@@ -151,6 +149,9 @@
 				Base,
 			);
 			mainGroup = 0377F1E02C7D0E6A0018B72B;
+			packageReferences = (
+				03F883092C9080FA00A4E975 /* XCRemoteSwiftPackageReference "Synergy-Apple-AMDVideoPlayer" */,
+			);
 			productRefGroup = 0377F1EA2C7D0E6A0018B72B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -386,9 +387,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		03F883092C9080FA00A4E975 /* XCRemoteSwiftPackageReference "Synergy-Apple-AMDVideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weathergroup/Synergy-Apple-AMDVideoPlayer.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		0377F1FC2C7D2B530018B72B /* AMDVideoPlayer */ = {
+		03F8830A2C9080FA00A4E975 /* AMDVideoPlayer */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 03F883092C9080FA00A4E975 /* XCRemoteSwiftPackageReference "Synergy-Apple-AMDVideoPlayer" */;
 			productName = AMDVideoPlayer;
 		};
 /* End XCSwiftPackageProductDependency section */

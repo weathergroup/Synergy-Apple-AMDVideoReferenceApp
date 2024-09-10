@@ -1,0 +1,15 @@
+{
+  "originHash" : "8fc327109b7ef63c93be9a28df836da05245f99dc53a93ebe71caeb43e4c33c6",
+  "pins" : [
+    {
+      "identity" : "synergy-apple-amdvideoplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weathergroup/Synergy-Apple-AMDVideoPlayer.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "22e0926d093290fe51a466ce4e5d928c5a5d4690"
+      }
+    }
+  ],
+  "version" : 3
+}
